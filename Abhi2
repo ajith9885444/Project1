@@ -1,0 +1,5 @@
+from sklearn.linear_model import LogisticRegression  #It is a regression model used to analyse data which the output is a binary 
+from sklearn.cross_validation import train_test_split #used to split the dataset into training and test data
+from sklearn.neighbors import KNeighborsClassifier  # KNN is a model normally used to infer a prediction based on similarities
+from sklearn.tree import DecisionTreeClassifier #It is a model used for classification, as the name suggests it constructs a tree based on the features of the dataset to infer a result
+from sklearn import metrics #for checking the model accuracy
